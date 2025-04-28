@@ -11,13 +11,13 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <Reference Include="UnityEngine" HintPath="$(SL_REFERENCES)\UnityEngine.dll" />
-        <Reference Include="UnityEngine.CoreModule" HintPath="$(SL_REFERENCES)\UnityEngine.CoreModule.dll" />
-        <Reference Include="Mirror" HintPath="$(SL_REFERENCES)\Mirror.dll" />
+        <Reference Include="UnityEngine" HintPath="$(EXILED_REFERENCES)\UnityEngine.dll" />
+        <Reference Include="UnityEngine.CoreModule" HintPath="$(EXILED_REFERENCES)\UnityEngine.CoreModule.dll" />
+        <Reference Include="Mirror" HintPath="$(EXILED_REFERENCES)\Mirror.dll" />
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="ExMod.Exiled" Version="9.5.2" />
+      <PackageReference Include="ExMod.Exiled" Version="9.6.0-beta7" />
     </ItemGroup>
 
 </Project>
